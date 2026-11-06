@@ -24,6 +24,10 @@ Then type `/meanwhile`, or just say "meanwhile" while you wait.
 
 Tip: run it in a second window or a Claude chat, so your coding session keeps working undisturbed.
 
-## License
+## Tested every 2 hours
 
-MIT
+An automated run plays Meanwhile from a different user's perspective every 2 hours and logs the result in [STATUS.md](STATUS.md). Scenarios are in [tests/scenarios.md](tests/scenarios.md).
+
+## Ownership and license
+
+Meanwhile is created and maintained by Pivyon. Copyright (c) 2026 Pivyon. Released under the MIT License — see [LICENSE](LICENSE). The name "Meanwhile" and the official listing belong to Pivyon; forks must not present themselves as the official plugin.
