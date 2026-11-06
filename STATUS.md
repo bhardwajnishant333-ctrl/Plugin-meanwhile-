@@ -2,8 +2,9 @@
 
 Automated behaviour tests run every 2 hours against `skills/meanwhile/SKILL.md`, each time from different user perspectives (see `tests/scenarios.md`).
 
-**Latest run:** 2026-11-06 22:20 UTC — PASS (3/3, re-graded)
+**Latest run:** 2026-11-06 23:28 UTC — PASS (3/3)
 
 | Time (UTC) | Scenarios | Result | Notes |
 |---|---|---|---|
+| 2026-11-06 23:28 | 4, 5, 6 | 3/3 PASS | First run without the word limit. Bare 1/2/3 worked; "meh"×2 switched domain and hook; caught and fixed its own "British Rail" slip. Minor: a repeated wildcard in s6. |
 | 2026-11-06 22:20 | 1, 2, 3 | 3/3 PASS | Re-graded: only failure was the 120–180 word limit, since removed by the owner. Minor: small-talk openers in two landings, a repeated option in s3. Harness: subagents read owner memory before turn 1 and were reset. |
