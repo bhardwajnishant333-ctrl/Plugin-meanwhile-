@@ -5,7 +5,7 @@ Your AI coding agent is working. You're waiting. Meanwhile gives that gap someth
 ## How it works
 
 1. **Start** — tell it what you're building, what you nerd out on, and how long the run will take.
-2. **Serve** — each idea is 120–180 words: a hook, the real mechanism (names, numbers, dates), and the twist.
+2. **Serve** — each idea is a hook, the real mechanism (names, numbers, dates), and the twist.
 3. **Choose** — reply `1` to go deeper, `2` for a sideways jump, `3` for a wildcard.
 4. **Land** — when the run finishes, you get the session's sharpest idea in two lines. Paste an error any time and it switches straight back to helping with your code.
 

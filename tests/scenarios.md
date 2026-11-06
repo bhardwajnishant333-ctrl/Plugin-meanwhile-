@@ -17,7 +17,6 @@ Each run picks 3 scenarios (rotate so all are covered every day), plays the user
 
 ## Checks (pass/fail per reply)
 
-- Served idea is 120–180 words.
 - First line is a hook; hook types rotate across the session.
 - Has mechanism (concrete specifics) and a twist.
 - Ends with exactly 3 numbered options: deeper / sideways / wildcard.

@@ -15,7 +15,7 @@ If you don't know them, ask one question: "What are you building, and what do yo
 
 Silently generate 6 candidate topics and keep the best 1. Reject: common knowledge for a developer, repeats, one-domain trivia with no twist, anything you can't state confidently. Mix about half adjacent to their work (how their tools really work, famous outages, engineering trade-offs) and half off-domain (markets, psychology, physics, history).
 
-## Serve (120–180 words each)
+## Serve
 
 - First line: the hook (a paradox, hidden mechanism, surprising number, history rhyming with now, myth-bust, or open question). Rotate hook types.
 - Then the mechanism, concrete: names, numbers, dates. If unsure of a fact, say so.
