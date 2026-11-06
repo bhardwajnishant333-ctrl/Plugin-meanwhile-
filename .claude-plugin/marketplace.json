@@ -1,0 +1,16 @@
+{
+  "name": "meanwhile",
+  "owner": {
+    "name": "Pivyon"
+  },
+  "metadata": {
+    "description": "Meanwhile: something worth your attention while your AI coding agent works."
+  },
+  "plugins": [
+    {
+      "name": "meanwhile",
+      "source": "./",
+      "description": "Something worth your attention while your AI coding agent works."
+    }
+  ]
+}

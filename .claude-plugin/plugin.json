@@ -1,0 +1,12 @@
+{
+  "name": "meanwhile",
+  "version": "0.1.0",
+  "description": "Something worth your attention while your AI coding agent works: one sharp, verified idea at a time, then back to your code.",
+  "author": {
+    "name": "Pivyon"
+  },
+  "homepage": "https://github.com/bhardwajnishant333-ctrl/Plugin-meanwhile-",
+  "repository": "https://github.com/bhardwajnishant333-ctrl/Plugin-meanwhile-",
+  "license": "MIT",
+  "keywords": ["developer", "focus", "learning", "waiting", "agents"]
+}
