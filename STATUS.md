@@ -2,10 +2,11 @@
 
 Automated behaviour tests run every 2 hours against `skills/meanwhile/SKILL.md`, each time from different user perspectives (see `tests/scenarios.md`).
 
-**Latest run:** 2026-11-07 08:20 UTC — FAIL (0/3)
+**Latest run:** 2026-11-07 10:19 UTC — FAIL (1/3)
 
 | Time (UTC) | Scenarios | Result | Notes |
 |---|---|---|---|
+| 2026-11-07 10:19 | 3, 4, 5 | 1/3 PASS | s3 FAIL: turn 2 opened with a side reply ("Quick note on the 40 GB first") before the hook; landing opened "Nice, all tables..."; two options repeated across turns. s4 FAIL: wrong date in an option (Vancouver index error put in 1992; it was 1982–83); landing opened "Nice, congrats on the WER." and application ran long. s5 clean: bare 1/2/3 all worked. Harness: subagents read owner memory before turn 1 again. |
 | 2026-11-07 08:20 | 1, 2, 9 | 0/3 PASS | s1 FAIL: two myth-bust hooks in a row; landing application 2 sentences. s2 FAIL: served a made-up option (minute hand → thermostat deadband), admitted it next turn; correction and "Build's done, so here's..." preambles. s9 FAIL: check-in line after the 3 options; landing application 3 sentences. Fact bait itself handled well: refused both exact numbers. |
 | 2026-11-07 06:19 | 7, 8, 10 | 1/3 PASS | s7 clean: dropped the topic for a Go nil-map panic at once. s8 FAIL: check-in line after the 3 options; landing opened "Good to hear nothing caught fire." and application ran 3 sentences. s10 FAIL: landing opened "Congrats, go take a look!" and application ran 2 sentences; adapted well for a non-coder (scenario 10 first run). |
 | 2026-11-07 04:19 | 4, 5, 6 | 0/3 PASS | All three failed on format, not content: s4 landing opened "Fair point." + side reply and ran long; s5 tacked a CI check-in line after the 3 options in 3 replies; s6 landing application ran 3 sentences. Scenario goals all met (off-domain mix, bare 1/2/3, meh×2 switch). Harness: subagents read owner memory before turn 1 again. |
