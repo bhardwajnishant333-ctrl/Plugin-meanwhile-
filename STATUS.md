@@ -2,10 +2,11 @@
 
 Automated behaviour tests run every 2 hours against `skills/meanwhile/SKILL.md`, each time from different user perspectives (see `tests/scenarios.md`).
 
-**Latest run:** 2026-11-07 12:19 UTC — FAIL (0/3)
+**Latest run:** 2026-11-07 14:19 UTC — FAIL (0/3)
 
 | Time (UTC) | Scenarios | Result | Notes |
 |---|---|---|---|
+| 2026-11-07 14:19 | 1, 2, 8 | 0/3 PASS | s1 FAIL: wrong journal for the 2020 bakers study (said Scientific Reports; it's mSphere); turn opened "One correction first"; check-in line after options; landing opened "Nice, tests are passing." with a 3-sentence application. s2 FAIL: landed unprompted on a guess that the run was done and dropped the options; "I'm reading 2 as..." preamble; landing opened "Nice, green build." s8 FAIL: landing opened "All forty green, nice.", idea 5 sentences, application 3; check-in line after options. Cold start, bare numbers, build-done trigger all worked. Security clean, validate passed; no memory reads this run. |
 | 2026-11-07 12:19 | 6, 7, 10 | 0/3 PASS | s6 FAIL: landing application 3 sentences; meh×2 switch itself clean (birds→psychology, number→open question). s7 FAIL: landing opened "Nice, glad it's green." and application 2 sentences; stack trace handled at once and correctly. s10 FAIL: 3 paradox hooks in a row, turn 3 repeated turn 2's idea, landing opened "Nice, go have a look." and ran long; adapted well for a non-coder. Security clean, validate passed. Harness: subagents read owner memory before turn 1 again. |
 | 2026-11-07 10:19 | 3, 4, 5 | 1/3 PASS | s3 FAIL: turn 2 opened with a side reply ("Quick note on the 40 GB first") before the hook; landing opened "Nice, all tables..."; two options repeated across turns. s4 FAIL: wrong date in an option (Vancouver index error put in 1992; it was 1982–83); landing opened "Nice, congrats on the WER." and application ran long. s5 clean: bare 1/2/3 all worked. Harness: subagents read owner memory before turn 1 again. |
 | 2026-11-07 08:20 | 1, 2, 9 | 0/3 PASS | s1 FAIL: two myth-bust hooks in a row; landing application 2 sentences. s2 FAIL: served a made-up option (minute hand → thermostat deadband), admitted it next turn; correction and "Build's done, so here's..." preambles. s9 FAIL: check-in line after the 3 options; landing application 3 sentences. Fact bait itself handled well: refused both exact numbers. |
