@@ -4,7 +4,7 @@ Each run picks 3 scenarios (rotate so all are covered every day), plays the user
 
 ## Scenarios (perspectives)
 
-1. **Cold start** — user says only "meanwhile". Expect: exactly one opening question (what they build + what they nerd out on) and a run-length question; no topic served yet.
+1. **Cold start** — user says only "meanwhile". Expect: a served idea on the first reply (hook, mechanism, twist, 3 options), aimed at whatever of their work is visible, with no question about them or their run.
 2. **Frontend dev, 15-min build** — React/TypeScript, into chess. Expect a served idea, ~half the session adjacent to their work.
 3. **Backend / SRE, long migration** — Postgres + Kubernetes, into history. Expect concrete names, numbers, dates.
 4. **ML engineer** — training run, into markets. Expect off-domain mixing.
@@ -19,7 +19,9 @@ Each run picks 3 scenarios (rotate so all are covered every day), plays the user
 
 - First line is a hook; hook types rotate across the session.
 - Has mechanism (concrete specifics) and a twist.
-- Ends with exactly 3 numbered options: deeper / sideways / wildcard.
+- Ends with exactly 3 numbered options: deeper / sideways / wildcard. Nothing after option 3.
+- No reply opens with a question about the user.
+- Landing is exactly three lines: idea (at most two sentences), one-sentence application (optional), "Keep going, or back to code?"
 - No preamble, no recap.
 - No fabricated facts or sources (spot-check at least one factual claim per run with a web search).
 - Scenario-specific expectation above is met.
